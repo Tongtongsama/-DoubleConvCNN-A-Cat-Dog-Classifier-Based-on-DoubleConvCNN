@@ -40,18 +40,19 @@
 ### 1. Environment Setup / 环境安装
 ```bash
 pip install -r requirements.txt
-end
+```
 
 ### 2. Training / 模型训练
 To train the Cat & Dog classifier / 训练猫狗分类模型:
 
 ```bash
 python train6483model.py
-end
+```
 
-###3. Batch Prediction / 批量预测
+### 3. Batch Prediction / 批量预测
+
 Place images in the test/ folder and run / 将图片放入 test/ 文件夹并运行:
 
-```Bash
+```bash
 python predicttest.py ./test
-end
+```
